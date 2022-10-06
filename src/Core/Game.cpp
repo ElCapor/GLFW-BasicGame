@@ -51,6 +51,7 @@ void Game::viewport(int width, int height) {
 
 void Game::update() {
     while(!glfwWindowShouldClose(window)) {
+        
         Game::input();
         glfwPollEvents();
     }

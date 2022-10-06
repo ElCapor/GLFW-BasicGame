@@ -14,8 +14,8 @@ public:
     void construct();
     void destruct();
 private:
-    unsigned int VBOs;
-    unsigned int vertexShader;
+    unsigned int VBOs; // i suggest refactor this to "ID" as it makes more sense
+    unsigned int vertexShader; // remove all of this when shader class is done
     unsigned int fragmentShader;
     unsigned int shaderProgram;
 };

@@ -8,6 +8,7 @@ int main() {
 
     game->init(1920, 1080, "Game");
     game->viewport(1920, 1080);
+    game->imgui_init();
     game->update();
     game->clean();
 
